@@ -1,0 +1,47 @@
+
+* {
+  padding: 0;
+  margin: 0;
+ 
+  background-repeat: no-repeat;
+}
+
+img, fieldset {
+  border: 0;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+fieldset {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th, caption {
+  font-weight: normal;
+  text-align: left;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+@mixin group {
+  zoom: 1;
+
+  &:after {
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+
