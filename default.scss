@@ -6,17 +6,11 @@
   background-repeat: no-repeat;
 }
 
-img, fieldset {
-  border: 0;
-}
+img, fieldset { border: 0; }
 
-img {
-  -ms-interpolation-mode: bicubic;
-}
+img { -ms-interpolation-mode: bicubic; }
 
-fieldset {
-  display: block;
-}
+fieldset { display: block; }
 
 table {
   border-collapse: collapse;
@@ -28,9 +22,7 @@ td, th, caption {
   text-align: left;
 }
 
-ol, ul {
-  list-style-type: none;
-}
+ol, ul { list-style-type: none; }
 
 @mixin group {
   zoom: 1;
